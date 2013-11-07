@@ -1,0 +1,824 @@
+body {
+         background-color: #000000;
+}
+
+#main_container {
+         position: relative;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 20px;
+         width: 800px;
+}
+
+#body_container {
+         position: relative;
+         width: 800px;
+         overflow: hidden;
+}
+
+#banner {
+         position: relative;
+         background-image: url(images/Banner.jpg);
+         background-repeat: no-repeat;
+         width: 800px;
+         height: 61px;
+}
+
+#left_panel {
+         position: relative;
+         width: 250px;
+         float: left;
+}
+
+#content_container {
+         position: relative;
+         width: 550px;
+         float: right;
+         overflow: hidden;
+}
+
+#menu_navigation {
+         position: relative;
+         width: 250px;
+         float: left;
+}
+
+#menu_header {
+         position: relative;
+         width: 250px;
+         height: 260px;
+         background-image: url(images/Menu_Header.jpg);
+         background-repeat: no-repeat;
+}
+
+#menu_repeat {
+         position: relative;
+         width: 250px;
+         background-image: url(images/Menu_Repeat.jpg);
+         background-repeat: repeat-y;
+}
+
+#menu_buttons {
+         position: relative;
+         width: 200px;
+         margin-left: 25px;
+         margin-right: 25px;
+}
+
+#Logout_Button {
+         position: relative;
+         display: block;
+         width: 200px;
+         height: 50px;
+         background-image: url(images/Logout_Button.png);
+         background-repeat: no-repeat;
+}
+
+#Logout_Button:hover {
+         position: relative;
+         background-position: 0 -50px;
+}
+
+#RequestBattle_Button {
+         position: relative;
+         display: block;
+         width: 200px;
+         height: 50px;
+         background-image: url(images/RequestBattle_Button.png);
+         background-repeat: no-repeat;
+         margin-left: auto;
+         margin-right: auto;
+}
+
+#RequestBattle_Button:hover {
+         position: relative;
+         background-position: 0 -50px;
+}
+
+#menu_footer {
+         position: relative;
+         width: 250px;
+         height: 30px;
+         background-image: url(images/Menu_Footer.jpg);
+         background-repeat: no-repeat;
+}
+
+#navigation_container {
+         position: relative;
+         width: 550px;
+         height: 39px;
+}
+
+#navigation {
+         position: relative;
+         width: 530px;
+         height: 39px;
+         background-image: url(images/Navigation_Repeat.jpg);
+         background-repeat: repeat-x;
+         float: left;
+}
+
+#navigation_end {
+         position: relative;
+         width: 20px;
+         height: 39px;
+         background-image: url(images/Navigation_End.jpg);
+         background-repeat: no-repeat;
+         float: left;
+}
+
+#Home_Button {
+         position: relative;
+         display: block;
+         width: 100px;
+         height: 39px;
+         background-image: url(images/Home_Button.png);
+         background-repeat: no-repeat;
+         float: left;
+         margin-right: 10px;
+}
+
+#Home_Button:hover {
+         position: relative;
+         background-position: 0 -39px;
+}
+
+#Home_Button span {
+         display: none;
+}
+
+#Members_Button {
+         position: relative;
+         display: block;
+         width: 100px;
+         height: 39px;
+         background-image: url(images/Members_Button.png);
+         background-repeat: no-repeat;
+         float: left;
+         margin-right: 10px;
+}
+
+#Members_Button:hover {
+         position: relative;
+         background-position: 0 -39px;
+}
+
+#Members_Button span {
+         display: none;
+}
+
+#Scores_Button {
+         position: relative;
+         display: block;
+         width: 100px;
+         height: 39px;
+         background-image: url(images/Scores_Button.png);
+         background-repeat: no-repeat;
+         float: left;
+         margin-right: 10px;
+}
+
+#Scores_Button:hover {
+         position: relative;
+         background-position: 0 -39px;
+}
+
+#Scores_Button span {
+         display: none;
+}
+
+#inner_container {
+         position: relative;
+         width: 550px;
+}
+
+#body_content_top {
+         position: relative;
+         display: block;
+         background-image: url(images/Body_Header.jpg);
+         background-repeat: no-repeat;
+         width: 550px;
+         height: 40px;
+}
+
+#body_content_repeat {
+         position: relative;
+         display: block;
+         background-image: url(images/Body_Repeat.jpg);
+         background-repeat: repeat-y;
+         width: 550px;
+         padding-left: 20px;
+         font-family: Arial,Helvetica,sans-serif;
+         color: #FFFFFF;
+         font-size: 12px;
+         overflow: hidden;
+}
+
+#body_content_bottom {
+         position: relative;
+         display: block;
+         background-image: url(images/Body_Footer.jpg);
+         background-repeat: no-repeat;
+         width: 550px;
+         height: 30px;
+}
+
+#login_box {
+         width: 200px;
+         font-family: Arial;
+         font-size: 10px;
+         padding: 0px;
+         border-spacing: 0px;
+         text-align: left;
+         vertical-align: top;
+}
+
+
+#online_header {
+         position: relative;
+         display: block;
+         background-image: url(images/OnlineUsers_Header.png);
+         background-repeat: no-repeat;
+         width: 150px;
+         height: 70px;
+}
+
+#battlerequests_header {
+         position: relative;
+         display: block;
+         background-image: url(images/BattleRequests_Header.png);
+         background-repeat: no-repeat;
+         width: 150px;
+         height: 70px;
+}
+
+#sentrequests_header {
+         position: relative;
+         display: block;
+         background-image: url(images/SentRequests_Header.png);
+         background-repeat: no-repeat;
+         width: 150px;
+         height: 70px;
+}
+
+#side_bar {
+         position: relative;
+         display: block;
+         width: 150px;
+         margin-left: 15px;
+         margin-right: 15px;
+         float: left;
+}
+
+#bottom_bar {
+         position: relative;
+         display: block;
+         width: 515px;
+         float: left;
+         overflow: hidden;
+}
+
+.online_box {
+         position: relative;
+         display: block;
+         width: 150px;    
+}
+
+#bottom_bar .online_box {
+         float: left;
+         margin-left: 20px;
+}
+
+#side_bar .online_box {
+         margin-bottom: 20px;
+}
+
+.online_repeat {
+         position: relative;
+         display: block;
+         background-image: url(images/OnlineUsers_Repeat.png);
+         background-repeat: repeat-y;
+         width: 150px;
+         padding-left: 10px;
+}
+
+.online_users_container {
+         position: relative;
+         display: block;
+         width: 120px;
+         border: 1px solid #cccccc;
+}
+
+
+.online_footer {
+         position: relative;
+         display: block;
+         background-image: url(images/OnlineUsers_Footer.png);
+         background-repeat: no-repeat;
+         width: 150px;
+         height: 20px;
+}
+
+#content_box {
+         position: relative;
+         display: block;
+         width: 350px;
+         float: left;
+}
+
+#register_header {
+         position: relative;
+         display: block;
+         background-image: url(images/Registration_Header.png);
+         background-repeat: no-repeat;
+         width: 350px;
+         height: 70px;
+}
+
+#overview_header {
+         position: relative;
+         display: block;
+         background-image: url(images/BattleOverview_Header.png);
+         background-repeat: no-repeat;
+         width: 350px;
+         height: 70px;
+}
+
+#members_header {
+         position: relative;
+         display: block;
+         background-image: url(images/MembersList_Header.png);
+         background-repeat: no-repeat;
+         width: 350px;
+         height: 70px;
+}
+
+#leaderboard_header {
+         position: relative;
+         display: block;
+         background-image: url(images/LeaderBoard_Header.png);
+         background-repeat: no-repeat;
+         width: 350px;
+         height: 70px;
+}
+
+#content_repeat {
+         position: relative;
+         display: block;
+         background-image: url(images/Box_Repeat.png);
+         background-repeat: repeat-y;
+         width: 350px;
+         padding-left: 10px;
+}
+
+#content_footer {
+         position: relative;
+         display: block;
+         background-image: url(images/Box_Footer.png);
+         background-repeat: no-repeat;
+         width: 350px;
+         height: 20px;
+}
+
+#snake_box {
+         position: relative;
+         display: block;
+         width: 515px;
+         float: left;
+}
+
+#snake_header {
+         position: relative;
+         display: block;
+         background-image: url(images/SnakeGame_Header.png);
+         background-repeat: no-repeat;
+         width: 515px;
+         height: 70px;
+}
+
+#snake_repeat {
+         position: relative;
+         display: block;
+         background-image: url(images/SnakeGame_Repeat.png);
+         background-repeat: repeat-y;
+         width: 515px;
+         padding-left: 10px;
+}
+
+#snake_footer {
+         position: relative;
+         display: block;
+         background-image: url(images/SnakeGame_Footer.png);
+         background-repeat: no-repeat;
+         width: 515px;
+         height: 20px;
+}
+
+#info_message {   
+         position: relative;
+         display: block;
+         width: 100%;
+         height: 20px;
+         border: 1px dashed #FFFFFF;
+         margin: 2px;
+         text-align: center;
+         overflow: hidden;
+}
+
+#profile_container {
+         position: relative;
+         display: block;
+         width: 335px;
+         overflow: hidden;
+}
+
+#left_section {
+         position: relative;
+         display: block;
+         width: 40%;
+         float: left;
+}
+
+#right_section {
+        position: relative;
+        display: block;
+        width: 60%;
+        float: right;
+}
+
+#profile_image {
+        width: 100px;
+        height: 100px;
+}
+
+.member_image {
+        position: relative;
+        display: block;
+        width: 100px;
+        height: 100px;
+        float: left;
+}
+
+.member_box_container {
+        position: relative;
+        display: block;
+        width: 335px;
+        overflow: hidden;
+}
+
+.member_box_header {
+        position: relative;
+        display: block;
+        background-image: url(images/member_box_header.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 10px;
+}
+
+.member_box_repeat {
+        position: relative;
+        display: block;
+        background-image: url(images/member_box_repeat.png);
+        background-repeat: repeat-y;
+        width: 335px;
+        overflow: hidden;
+}
+
+.member_box_footer {
+        position: relative;
+        display: block;
+        background-image: url(images/member_box_footer.png);
+        background-repeat: no-repeat;
+        width: 335px;
+        height: 10px;
+}
+
+.member_box_picture {
+        position: relative;
+        width: 100px;
+        margin-left: 5px;
+        float: left;
+}
+
+.member_online {
+        position: relative;
+        display: block;
+        background-image: url(images/member_online.png);
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 100px;
+}
+
+.member_offline {
+        position: relative;
+        display: block;
+        background-image: url(images/member_offline.png);
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 100px;
+}
+
+
+.member_box_content {
+        position: relative;
+        width: 220px;
+        margin-left: 5px;
+        margin-right: 5px;
+        float: left;
+}
+
+.member_box_username {
+        position: relative;
+        display: block;
+        width: 200px;
+        height: 15px;
+        background-color: #842727;
+        border: 1px solid #cccccc;
+        color: #FFFFFF;
+        text-decoration: none;
+}
+
+.member_box_username:hover {
+        background-color: #be08bb;
+}
+
+.message_box {
+        position: relative;
+        display: block;
+        width: 200px;
+}
+
+.message_header {
+        position: relative;
+        display: block;
+        background-image: url(images/message_header.png);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 20px;
+}
+
+.message_repeat {
+        position: relative;
+        display: block;
+        background-image: url(images/message_repeat.png);
+        background-repeat: repeat-y;
+        width: 200px;
+}
+
+.message_text {
+        position: relative;
+        display: block;
+        margin-left: 55px;
+        font-family: Arial,Helvetica,sans-serif;
+        color: #842727;
+        font-size: 12px;
+        font-style: italic;
+}
+
+.message_footer {
+        position: relative;
+        display: block;
+        background-image: url(images/message_footer.png);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 40px;
+}
+
+.online_row {
+         position: relative;
+         display: block;
+         width: 120px;
+         height: 15px; 
+}
+.online_user {
+         position: relative;
+         display: block;  
+         background-color: #842727;
+         color: #FFFFFF;
+         text-decoration: none;
+         height: 15px;
+}
+
+.online_split {
+        width: 50%;
+        float: left;
+}
+
+
+.online_user:hover {
+         background-color: #be08bb;
+}
+
+
+.form_table {
+         width: 320px;
+         text-align: left;
+         font-family: Arial;
+         font-size: 11px;
+         color: #3e144d;
+         padding: 0px;
+         border-spacing: 0px;
+}
+.form_table  th{
+         text-align: left;
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: bold;
+         color: #3e144d;
+}
+
+/* Form Styles */
+input, textarea {
+         background: url(images/Input_BG.gif) repeat;
+         border: 1px solid #55242a;
+         padding: 2px;
+         color: #666;
+         font-family: Arial;
+         font-size: 12px;
+         color: #404040;
+}
+label {
+         font-family: Arial; 
+         font-size: 12px;
+         color: #FFFFFF;
+         font-weight: bold;
+         text-align: right;
+}
+
+.error {
+        font-family: Arial; 
+        font-weight: bold; 
+        font-size: 11px; 
+        color: #cc0000; 
+}
+
+.success {
+        font-family: Arial; 
+        font-weight: bold; 
+        font-size: 11px; 
+        color: #15ff26; 
+}
+
+input.disabled {
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+input.required, textarea.required {
+	border: 1px solid #00A8E6;
+}
+input.validation-failed, textarea.validation-failed {
+	border: 1px solid #FF3300;
+	color : #FF3300;
+}
+input.validation-passed, textarea.validation-passed {
+	border: 1px solid #00CC00;
+	color : #000;
+}
+
+.validation-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #FF3300;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.custom-advice {
+	margin: 5px 0;
+	padding: 5px;
+	background-color: #C8AA00;
+	color : #FFF;
+	font-weight: bold;
+}
+
+.buttonSubmit {
+         width: 69px;
+         height: 26px; 
+         color: #ffffff;
+         font-weight: bold;
+         padding-top: 2px;
+         padding-bottom: 2px;
+         padding-left: 5px;
+         background: url(images/Submit_Button.png) no-repeat left top;
+         cursor: pointer;
+         border: none;
+}
+
+.buttonSubmit:hover {
+         background-position:left bottom;
+}
+
+.Blank_Button {
+         position: relative;
+         display: block;
+         width: 100px;
+         height: 29px;
+         background-image: url(images/Blank_Button.png);
+         background-repeat: no-repeat;
+         font-size: 14px;
+         font-weight: bold;
+	 color: #ffffff;
+         text-align: center;
+         padding-top: 10px;
+         float: left;
+}
+
+.Submit_Button {
+         position: relative;
+         display: block;
+         width: 100px;
+         height: 39px;
+         background-image: url(images/Blank_Button.png);
+         background-repeat: no-repeat;
+         font-size: 14px;
+         font-weight: bold;
+	 color: #ffffff;
+         text-align: center;
+         padding-top: 10px;
+         padding-bottom: 15px; 
+         border: 0px;
+}
+
+.Submit_Button:hover {
+         position: relative;
+         color: #000000;
+         background-position: 0 -39px;
+}
+
+.Blank_Button.hover {
+         position: relative;
+         color: #000000;
+         background-position: 0 -39px;
+}
+
+div.group {
+         clear: both;
+         padding-top: 5px;
+}
+
+span.label {
+         width: 100%;
+         float: left;
+         font-size: 11px;
+	 color: #ffffff;
+}
+
+span.content {
+         width: 100%;
+         float: left;
+}
+
+.span.content input, textarea {
+         width: 100%;
+}
+
+.pagination{
+          padding: 2px;
+}
+
+.pagination ul{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 16px;
+}
+
+.pagination li{
+        list-style-type: none;
+        display: inline;
+        padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+        padding: 0 5px;
+        border: 1px solid #9aafe5;
+        text-decoration: none; 
+        color: #2e6ab1;
+}
+
+.pagination a:hover, .pagination a:active{
+        border: 1px solid #2b66a5;
+        color: #000;
+        background-color: #FFFF80;
+}
+
+.pagination a.currentpage{
+        background-color: #2e6ab1;
+        color: #FFF !important;
+        border-color: #2b66a5;
+        font-weight: bold;
+        cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+        background-color: white;
+        cursor: default;
+        color: #929292;
+        border-color: #929292;
+        font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+        font-weight: bold;
+}
